@@ -53,6 +53,18 @@
             android:name=".activity.SettingsActivity"
             android:label="@string/settings" >
         </activity>
+                <activity
+            android:name=".activity.SettingsActivity$ViewPreferences" >
+        </activity>
+                <activity
+            android:name=".activity.SettingsActivity$NavigationPreferences" >
+        </activity>
+                <activity
+            android:name=".activity.SettingsActivity$GeekyPreferences" >
+        </activity>
+                <activity
+            android:name=".activity.SettingsActivity$AboutPreferences" >
+        </activity>
     </application>
 
 </manifest>

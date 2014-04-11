@@ -242,6 +242,9 @@
 	<string name="filesystem_root">File System Root</string>
 	
 	<string name="system_path">System</string>
+        <string name="path_meta">Path meta</string>
+        <string name="empty_string"> </string>
+
 	<string-array name="sort_fields_entries">
         <item>Name</item>
         <item>Size</item>

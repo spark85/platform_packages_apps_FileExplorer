@@ -24,6 +24,11 @@ public class SettingsActivity extends PreferenceActivity {
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 
 	}
+
+	@Override
+	public boolean isValidFragment(String fragmentName) {
+		return true;
+	}
 	
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
